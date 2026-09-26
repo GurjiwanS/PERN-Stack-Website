@@ -69,7 +69,7 @@ app.post('/createaccount', async(req: Request, res: Response) => {
         res.json(newBarber.rows[0]);
     } catch(e) {
         console.error(getErrorMessage(e));
-        res.status(500).send;
+        res.status(500).send();
     }
 });
 
@@ -181,7 +181,7 @@ app.get('/weekschedule', async(req: Request, res: Response) => {
 
     } catch(e) {
         console.error(getErrorMessage(e));
-        res.status(500).send;
+        res.status(500).send();
     }
 });
 
