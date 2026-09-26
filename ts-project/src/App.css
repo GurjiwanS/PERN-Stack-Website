@@ -1,0 +1,51 @@
+/* Default background style */
+.bgpic {
+    background-image: url('https://mages.unsplash.com/photo-1520338661084-680395057c93?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+    background-size: cover;
+    background-position:top;
+    /* Other styles */
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 767px) {
+    .bgpic {
+      background-image: url('your-mobile-background.jpg');
+      /* Other styles specific to mobile devices */
+    }
+  }
+
+  @media (max-width: 1000px) {
+    .flexwrapper {
+      flex-wrap: wrap;
+    }
+  }
+
+  .vrstyle {
+    height: 30vh;
+  }
+  
+  @media (max-width: 1000px) {
+    .vrstyle {
+      display: none !important;
+    }
+  }
+
+  .justifypctophone{
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 1000px) {
+    .justifypctophone{
+    justify-content: center;
+    column-gap: 20vw;
+    row-gap: 2vh;
+
+  }
+}
+
+.activeNavbar{
+    color: black !important;
+}
+  
+  
+  
